@@ -50,15 +50,15 @@ header {
 }
 header > h1 {
   height: 100%;
-  width: 144rem;
+  width: 113rem;
   align-content: center;
 }
 
 /* main */
 main {
-  width: 144rem;
+  width: 113rem;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 2fr 1fr;
   padding-top: 5rem;
   gap: 2.4rem;
 }
@@ -113,10 +113,33 @@ article {
 .card{
   height: 40rem;
 }
-.card img {
+.cardImg-1 {
+  background-image: url(/img/cardImg-1.jpg);
   width: 100%;
-  height: 20rem;
-  background-size: contain;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.cardImg-2 {
+  background-image: url(/img/cardImg-2.jpg);
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.cardImg-3 {
+  background-image: url(/img/cardImg-3.jpg);
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+}
+.cardImg-4 {
+  background-image: url(/img/cardImg-4.jpg);
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
 }
 
 
